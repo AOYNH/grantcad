@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Estimator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cement>1</Cement>
+  <Gravel>2</Gravel>
+  <Sand>2</Sand>
+  <Lime>1</Lime>
+  <Cement_Price>5200</Cement_Price>
+  <Gravel_Price>4000</Gravel_Price>
+  <Sand_Price>3000</Sand_Price>
+  <Lime_Price>2500</Lime_Price>
+</Estimator>
