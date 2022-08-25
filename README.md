@@ -1,2 +1,2 @@
-# grantcad
-Grant CAD estimate the basic materials cost for new house building base on design plans.
+# Grantcad
+Grant CAD estimate the basic materials cost for new house building, base on designed plans.
