@@ -21,19 +21,20 @@
 ```c#
 using System;
 public calss Estimate{
-    void Calculate(){
-            var Sedimentation = Area × Depth
-            = 11.04 × 0.3 = 3.312 m^3
-            var Free board = Area × Depth
-            = 11.04 × 0.3 =3.312 m^3
-            var Disgestion = Depth × User
-            = 0.032 × 50 = 1.6 m^3
-            var Storage volume = Depth × User
-            = 0.073 × 50 = 3.65 m^3
-            Total volume = 11.874 m^3
-            Depth of Spetic Tank = Volume ÷ Area
-            = 11.874 ÷ 11.04
-            = 1.08 m     
+    float Total(){
+
+                ratio = Calculate.ShapeRatio(sh); 
+                cuft = Calculate.CubicFeet(sh.Area, sh.Depth); 
+                cement = Calculate.AverageCubic(sh.Cement, ratio, cuft); 
+                gravel = Calculate.AverageCubic(sh.Gravel, ratio, cuft); 
+                sand = Calculate.AverageCubic(sh.Sand, ratio, cuft); 
+                Lime = Calculate.AverageCubic(sh.Lime, ratio, cuft); 
+                cementprice = Calculate.MaterialPrice(cement, DataAccess.estimator.Cement_Price); 
+                sandprice = Calculate.MaterialPrice(sand, DataAccess.estimator.Sand_Price); 
+                gravelprice = Calculate.MaterialPrice(gravel, DataAccess.estimator.Gravel_Price); 
+                limeprice = Calculate.MaterialPrice(Lime, DataAccess.estimator.Lime_Price); 
+                float totalestimate = cementprice + sandprice + gravelprice + limeprice;
+                return totalestimate;  
     }  
 }
 ```
@@ -44,7 +45,7 @@ As estimation work per designed plan, first plot any shapes on the app. See the 
 </p>
 
 ### Submit (or) Report the proposal
-After every shape or designed plans have drawn on the app, click on the report button on tools bar and see the result. The submitting could be done by the getting excel from report form.
+After every shape or designed plans have drawn on the app, click on the report button on tools bar and see the result. The submitting could be done by the getting excel file from report form.
  <p align="center">
 	<img width="5000" align="center" src="https://i.ibb.co/fN4F5QV/Sshot-All-Estimate.png">
 </p>
