@@ -78,5 +78,5 @@ Etc.....<br/>
 <a href="mailto:yenainghtoo2@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 <i> Drink Me A Beer , Thanks </i>
-<a href="https://www.hel.io/pay/634242283e4e28279c39e216?fbclid=IwAR0HyWK5I148SPrwJcuUSC8TdXgzrcOM5MZHDWn6G6yEWUblALBUDPa9L64"> 1 Sol/Can
+<a href="https://www.hel.io/pay/63425751ae0725bed5d0f8b4"> 1 Sol/Can
 
