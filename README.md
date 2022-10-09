@@ -77,3 +77,6 @@ Etc.....<br/>
 <a href="https://www.linkedin.com/in/anil-oli-a0b773ab"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href="mailto:yenainghtoo2@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
+<i> Drink Me A Beer , Thanks </i>
+<a href="https://www.hel.io/pay/634242283e4e28279c39e216?fbclid=IwAR0HyWK5I148SPrwJcuUSC8TdXgzrcOM5MZHDWn6G6yEWUblALBUDPa9L64"> 1 Sol/Can
+
